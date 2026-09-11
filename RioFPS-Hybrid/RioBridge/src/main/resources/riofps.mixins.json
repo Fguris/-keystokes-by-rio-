@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.Rionom.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerEntityInvoker",
+    "MinecraftClientInvoker",
+    "MinecraftClientMixin",
+    "EntityRendererMixin",
+    "PostEffectProcessorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
